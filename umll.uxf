@@ -4,10 +4,18 @@ value: int
 --
 set_value(): void
 get_value(): int
-toss(): int</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>50</y><w>200</w><h>140</h></coordinates><panel_attributes>Coin
+toss(): int</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>45</y><w>200</w><h>140</h></coordinates><panel_attributes>Coin
 --
 value: int
 --
 set_value(): void
 get_value(): int
-toss(): int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+toss(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>265</y><w>100</w><h>30</h></coordinates><panel_attributes>Dice
+--
+sides: int
+value: int
+--
+get_sides(): int
+get_value(): int
+set_value(): int
+roll(): int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
