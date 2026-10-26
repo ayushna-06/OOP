@@ -4,13 +4,13 @@ value: int
 --
 set_value(): void
 get_value(): int
-toss(): int</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>45</y><w>200</w><h>140</h></coordinates><panel_attributes>Coin
+toss(): int</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>40</y><w>200</w><h>140</h></coordinates><panel_attributes>Coin
 --
 value: int
 --
 set_value(): void
 get_value(): int
-toss(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>265</y><w>100</w><h>30</h></coordinates><panel_attributes>Dice
+toss(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>60</y><w>130</w><h>140</h></coordinates><panel_attributes>Dice
 --
 sides: int
 value: int
@@ -18,4 +18,11 @@ value: int
 get_sides(): int
 get_value(): int
 set_value(): int
-roll(): int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+roll(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>50</y><w>180</w><h>140</h></coordinates><panel_attributes>App
+--
+home(): void
+toss(): void
+roll(): void
+close(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>100</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+&lt; tosses</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>100</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+rolls &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element></diagram>
