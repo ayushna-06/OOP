@@ -1,0 +1,13 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Coin
+--
+value: int
+--
+set_value(): void
+get_value(): int
+toss(): int</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>50</y><w>200</w><h>140</h></coordinates><panel_attributes>Coin
+--
+value: int
+--
+set_value(): void
+get_value(): int
+toss(): int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
